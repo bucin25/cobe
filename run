@@ -42,7 +42,7 @@ def pilihlogin():
 		print("\033[1;96m[\033[1;97m02\033[1;96m] \033[1;97mLogin via COOKIE")
 		print("\033[1;96m[\033[1;97m03\033[1;96m] \033[1;97mVideo cara mengambil TOKEN")
 		print("\033[1;96m[\033[1;97m04\033[1;96m] \033[1;97mVideo cara mengambil COOKIE")
-		bct = raw_input("\n\033[1;96m[\033[1;97m?\033[1;96m] PILIH :\033[1;93m ")
+		bct = input("\n\033[1;96m[\033[1;97m?\033[1;96m] PILIH :\033[1;93m ")
 		if bct == "":
 			pilihlogin()
 		elif bct == "1":
