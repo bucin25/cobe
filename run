@@ -63,6 +63,7 @@ def piihlogin():
 			print('')
 			print(f"\033[1;32mLogin Berhasil...!!!")
 			open("save","a").write(to)
+			os.system("clear")
 			banner()
 			time.sleep(2.5)
 		except KeyError:
