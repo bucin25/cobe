@@ -171,7 +171,7 @@ def menu():
 				print(f" \033[1;36m[\033[1;37m=\033[1;36m] \033[1;37mNama target\t    :\033[1;33m {rr['name']}")
 				ro=json.loads(req.get(f'https://graph.facebook.com/{target}/friends?access_token={token}').text)
 				for x in ro['data']:
-				print(f" [=] Jumlah ID\t :\033[1;33m ") +str(len(id))
+				print(f" [=] Jumlah ID\t :\033[1;33m ") +str(len(ID))
 			except KeyError:
 				print("     \033[1;37mTarget tidak ada...!!!")
 				time.sleep(1)
