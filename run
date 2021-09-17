@@ -73,6 +73,25 @@ def piihlogin():
 		print("[!] Jangan kosong")
 		time.sleep(1)
 		pilihlogin()
+	else:
+		print("[!] Pilihan Tidak Ada")
+		time.sleep(1)
+		piihlogin()
+def logika():
+	try:
+		token=open("save","r").read()
+		r=json.loads(req.get(f"https://graph.facebook.com/me?access_token={token}").text)
+		nama=r['name']
+		print(f"[☆] Anda Sudah Login [☆]\nWelcome Back {nama}")
+		time.sleep(1.5)
+		crack(token,nama).menu()
+	except FileNotFoundError:
+		print("[!] Anda Belum Login Harap Login Terlebih Dahulu [!]")
+		time.sleep(2)
+		login()
+	except KeyError:
+		os.system("rm -rf save")
+		exit("[!] Token Anda Invalid Harap Login Kembali")
 
 def xxnx():
     try:
