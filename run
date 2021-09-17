@@ -239,7 +239,7 @@ def menu():
 		self.useragent()
 	elif(pil in ('05','5')):
 		os.system('rm -rf save')
-		exit('\nBerhasil Logout Dan Hapus Akun')
+		print('\nBerhasil Logout Dan Hapus Akun')
 		pilihlogin()
 	elif(pil in ("06","6")):
 		print("\n[√] Menuju WhatsApp Author....\n[!] Klik Buka Dengan WhatsApp")
