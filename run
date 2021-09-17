@@ -41,7 +41,7 @@ ok,cp,cot=0,0,0
 ajg=""
 mb="https://mbasic.facebook.com"
 
-def piihlogin(self):
+def piihlogin():
 	os.system("clear")
 	logo()
 	print('')
@@ -74,7 +74,7 @@ def piihlogin(self):
 		time.sleep(1)
 		pilihlogin()
 
-def xxnx(self):
+def xxnx():
     try:
         toket = open('licensed.log', 'r').read()
     except IOError:
