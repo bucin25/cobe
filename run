@@ -335,7 +335,7 @@ class crack:
 			self.menu()
 		elif(yt in ("t","T")):
 			self.menu()
-def lisen(self):
+def lisen():
     os.system('clear')
     logo()
     jalan('\n\x1b[1;96m [\x1b[1;97m*\x1b[1;96m] \x1b[1;92mMohon tunggu ...');time.sleep(2.0)
@@ -384,7 +384,7 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.001)
 	
-def logo(self):
+def logo():
 	wok=[]
 	os.system('clear')
 	ha=0
@@ -392,22 +392,22 @@ def logo(self):
 	print('')
 	print('')
 	time.sleep(0.01)
-	self.jalan ("\033[1;37m                    ______---_____ ")
-	self.jalan ("\033[1;37m         ___-----           __      ---- ")
-	self.jalan ("\033[1;37m ___---             ___------             \ ")
-	self.jalan ("\033[1;37m     ---______        ----                 \ ")
-	self.jalan ("\033[1;37m                 --__    |             _____)")
-	self.jalan ("\033[1;37m                     -                /     \ ")
-	self.jalan ("\033[1;37m          _____-----    ___--         \    / )")
-	self.jalan ("\033[1;37m    -----_____      ---____            \__/  /")
-	self.jalan ("\033[1;37m                 --__    \ --    _          /\ ")
-	self.jalan ("\033[1;37m                      --__-__     \_____/   \_/\ ")
-	self.jalan ("\033[1;37m                            ----|   /          |")
-	self.jalan ("\033[1;36mAuthor \033[1;37m : JESSICA PUTRY         |  |___________|")
-	self.jalan ("\033[1;36mGelar  \033[1;37m : RATU ERROR            |  | ((_(_)| )_)")
-	self.jalan ("\033[1;36mJabatan\033[1;37m : \33[3;1m\033[1;37mOwner group \033[1;33mR.E...... \33[0;1m\033[1;37m|  \_((_(_)|/(_)")
-	self.jalan ("\033[1;36m¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤\033[1;37m\             (")
-	self.jalan ("\033[1;36m¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤\033[1;37m\_____________)")
+	jalan ("\033[1;37m                    ______---_____ ")
+	jalan ("\033[1;37m         ___-----           __      ---- ")
+	jalan ("\033[1;37m ___---             ___------             \ ")
+	jalan ("\033[1;37m     ---______        ----                 \ ")
+	jalan ("\033[1;37m                 --__    |             _____)")
+	jalan ("\033[1;37m                     -                /     \ ")
+	jalan ("\033[1;37m          _____-----    ___--         \    / )")
+	jalan ("\033[1;37m    -----_____      ---____            \__/  /")
+	jalan ("\033[1;37m                 --__    \ --    _          /\ ")
+	jalan ("\033[1;37m                      --__-__     \_____/   \_/\ ")
+	jalan ("\033[1;37m                            ----|   /          |")
+	jalan ("\033[1;36mAuthor \033[1;37m : JESSICA PUTRY         |  |___________|")
+	jalan ("\033[1;36mGelar  \033[1;37m : RATU ERROR            |  | ((_(_)| )_)")
+	jalan ("\033[1;36mJabatan\033[1;37m : \33[3;1m\033[1;37mOwner group \033[1;33mR.E...... \33[0;1m\033[1;37m|  \_((_(_)|/(_)")
+	jalan ("\033[1;36m¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤\033[1;37m\             (")
+	jalan ("\033[1;36m¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤\033[1;37m\_____________)")
 	print('')
 	time.sleep(0.03)
 	
