@@ -45,7 +45,7 @@ def pilihlogin():
 	os.system("clear")
 	try:
 		token = open('login.txt','r')
-		menu(self)
+		menu()
 	except (KeyError,IOError):
 		logo()
 		print
@@ -127,7 +127,7 @@ def xxnx():
     else:
         lisen()
 	
-def menu(self):
+def menu():
 	os.system('clear')
 	global token
 	try:
