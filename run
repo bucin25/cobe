@@ -238,8 +238,9 @@ def menu():
 	elif(pil in ("04","4")):
 		self.useragent()
 	elif(pil in ('05','5')):
-		os.system('rm -rf save')
-		pilihlogin()
+		os.system("rm -f login.txt") 
+		print (" √   berhasil menghapus token") 
+		exit()
 	elif(pil in ("06","6")):
 		print("\n[√] Menuju WhatsApp Author....\n[!] Klik Buka Dengan WhatsApp")
 		os.system("xdg-open https://wa.me/6283870396203")
