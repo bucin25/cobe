@@ -173,7 +173,7 @@ def menu():
 				for x in ro['data']:
 					wok.append(x['id'])
 				print(f" \033[1;96m [\033[1;97m!\033[1;96m]\033[1;97m total id  :\033[1;93m " +str(len(id))
-				os.system("clear")
+				clear()
 			except KeyError:
 				print("     \033[1;37mTarget tidak ada...!!!")
 				time.sleep(1)
