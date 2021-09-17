@@ -350,7 +350,7 @@ def lisen(self):
     os.system('am start https://wa.me/+62895341157823?text=Hi+Ratu+Beli+Lisensi+dong.%20Lisensi:%20' + id + ' >/dev/null') 
     time.sleep(1)
     os.sys.exit()
-def user1(self):
+def user1():
     try:
         j = open('licensed.log', 'r').read()
         r = requests.get('https://github.com/bucin25/License/blob/main/id').text.strip() # Jangan Di ganti bro'i nanti error
