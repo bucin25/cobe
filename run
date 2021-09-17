@@ -127,7 +127,7 @@ def xxnx():
     else:
         lisen()
 	
-def menu():
+def menu(self):
 	os.system('clear')
 	global token
 	try:
